@@ -35,27 +35,27 @@
 
 > ⚠️ 前提是电脑上已经正确配置c/c++环境和cmake工具。mac用户可参考我的博客：[MacBook使用杂记](https://blog.csdn.net/qq_60587145/article/details/152934108?sharetype=blogdetail&sharerId=152934108&sharerefer=PC&sharesource=qq_60587145&spm=1011.2480.3001.8118)
 
-&emsp;&emsp;:one: 首先打开终端，切换到项目目录，创建构建（build）目录:
+&emsp;&emsp;1️⃣ 首先打开终端，切换到项目目录，创建构建（build）目录:
 
 ```cpp
 cd Path/To/exp01
 mkdir build
 ```
 
-&emsp;&emsp;:two: 接着运行CMake 生成构建文件并编译：
+&emsp;&emsp;2️⃣  接着运行CMake 生成构建文件并编译：
 
 ```cpp
 cmake ..
 make
 ```
 
-&emsp;&emsp;如果成功，会看到：
+&emsp;&emsp;3️⃣ 如果成功，会看到：
 
 ```bash
 [100%] Built target SeqList.exe
 ```
 
-&emsp;&emsp;:three: 最后运行程序：编译完成后，在 build/ 目录中会生成一个可执行文件，执行运行命令：
+&emsp;&emsp;4️⃣ 最后运行程序：编译完成后，在 build/ 目录中会生成一个可执行文件，执行运行命令：
 
 ```cpp
 ./SeqList.exe
@@ -65,20 +65,20 @@ make
 
 > ⚠️ 以下命令适用于已经配置好c/c++编译的Mac系统。其他平台用户建议直接使用IDE（如Devc++、Vscode等）运行按钮运行。
 
-&emsp;&emsp;:one: 打开终端，切换到项目目录，使用mac自带c++编译工具`clang++`编译：
+&emsp;&emsp;1️⃣  打开终端，切换到项目目录，使用mac自带c++编译工具`clang++`编译：
 
 ```cpp
 cd Path/To/exp01
 clang++ -std=c++17 SeqListSingle.cpp -o SeqListSingle
 ```
 
-&emsp;&emsp;:two: 运行编译好的可执行程序`SeqListSingle`：
+&emsp;&emsp;2️⃣ 运行编译好的可执行程序`SeqListSingle`：
 
 ```cpp
 ./SeqListSingle
 ```
 
-&emsp;&emsp;若程序正确运行，得到以下实验结果：
+&emsp;&emsp;3️⃣ 若程序正确运行，得到以下实验结果：
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/01687137d0814a9fbad75aa1b824549c.png)
 
 
