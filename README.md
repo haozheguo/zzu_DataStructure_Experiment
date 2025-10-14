@@ -21,12 +21,13 @@
 
 ## 🎨 实验代码配套博客解读
 
+
 | 📖 实验名称                                                                                                   | 📖 博客链接                                                                                                                                              |
 | :------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ✔️[exp01 顺序表的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp01) | [zzu数据结构实验（一）顺序表的基本操作和实现](https://blog.csdn.net/qq_60587145/article/details/152922364?spm=1001.2014.3001.5502)                       |
 | ✔️[exp02 单链表的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp02) | [zzu数据结构实验（二）单链表的基本操作](https://blog.csdn.net/qq_60587145/article/details/153042030?spm=1001.2014.3001.5502)                             |
 | ✔️[exp03 栈的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp03)     | [zzu数据结构实验（三）栈的基本操作（应用：括号匹配和中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153139975?spm=1011.2415.3001.5331) |
-| ✔️[exp04 队列的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp04)     | [zzu数据结构实验（四） 队列的基本操作和实现（应用：中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153209129?spm=1001.2014.3001.5502) |
+| ✔️[exp04 队列的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp04)   | [zzu数据结构实验（四） 队列的基本操作和实现（应用：中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153209129?spm=1001.2014.3001.5502)  |
 
 ## 💫 实验运行配置
 
@@ -41,6 +42,7 @@
 ```cpp
 cd Path/To/exp01
 mkdir build
+cd build
 ```
 
 &emsp;&emsp;2️⃣  接着运行CMake 生成构建文件并编译：
@@ -81,4 +83,3 @@ clang++ -std=c++17 SeqListSingle.cpp -o SeqListSingle
 
 &emsp;&emsp;3️⃣ 若程序正确运行，得到以下实验结果：
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/01687137d0814a9fbad75aa1b824549c.png)
-
