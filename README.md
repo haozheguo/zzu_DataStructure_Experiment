@@ -21,13 +21,15 @@
 
 ## 🎨 实验代码配套博客解读
 
-
-| 📖 实验名称                                                                                                   | 📖 博客链接                                                                                                                                              |
-| :------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ✔️[exp01 顺序表的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp01) | [zzu数据结构实验（一）顺序表的基本操作和实现](https://blog.csdn.net/qq_60587145/article/details/152922364?spm=1001.2014.3001.5502)                       |
-| ✔️[exp02 单链表的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp02) | [zzu数据结构实验（二）单链表的基本操作](https://blog.csdn.net/qq_60587145/article/details/153042030?spm=1001.2014.3001.5502)                             |
-| ✔️[exp03 栈的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp03)     | [zzu数据结构实验（三）栈的基本操作（应用：括号匹配和中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153139975?spm=1011.2415.3001.5331) |
-| ✔️[exp04 队列的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp04)   | [zzu数据结构实验（四） 队列的基本操作和实现（应用：中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153209129?spm=1001.2014.3001.5502)  |
+| 📖 实验名称                                                                                                             | 📖 博客链接                                                                                                                                              |
+| :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✔️[exp01 顺序表的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp01)           | [zzu数据结构实验（一）顺序表的基本操作和实现](https://blog.csdn.net/qq_60587145/article/details/152922364?spm=1001.2014.3001.5502)                       |
+| ✔️[exp02 单链表的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp02)           | [zzu数据结构实验（二）单链表的基本操作](https://blog.csdn.net/qq_60587145/article/details/153042030?spm=1001.2014.3001.5502)                             |
+| ✔️[exp03 栈的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp03)               | [zzu数据结构实验（三）栈的基本操作（应用：括号匹配和中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153139975?spm=1011.2415.3001.5331) |
+| ✔️[exp04 队列的基本操作和实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp04)             | [zzu数据结构实验（四） 队列的基本操作和实现（应用：中心对称检验）](https://blog.csdn.net/qq_60587145/article/details/153209129?spm=1001.2014.3001.5502)  |
+| ✔️[exp05 二叉树的递归及非递归遍历及其应用](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp05) | [zzu数据结构实验（五） 二叉树的递归及非递归的遍历及其应用](https://blog.csdn.net/qq_60587145/article/details/153252381?spm=1001.2014.3001.5502)          |
+| ✔️[exp06 哈夫曼树及哈夫曼编码算法实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp06)     | [zzu数据结构实验（六） 哈夫曼树及哈夫曼编码算法实现](https://blog.csdn.net/qq_60587145/article/details/153329037?spm=1001.2014.3001.5502)                |
+| ✔️[exp07 图的基本操作和深度优先遍历算法实现](https://github.com/haozheguo/zzu_DataStructure_Experiment/tree/main/exp07)             | [zzu数据结构实验（七） 图的基本操作和深度优先遍历算法实现](https://blog.csdn.net/qq_60587145/article/details/153422782?spm=1001.2014.3001.5502)          |
 
 ## 💫 实验运行配置
 
@@ -83,3 +85,4 @@ clang++ -std=c++17 SeqListSingle.cpp -o SeqListSingle
 
 &emsp;&emsp;3️⃣ 若程序正确运行，得到以下实验结果：
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/01687137d0814a9fbad75aa1b824549c.png)
+
